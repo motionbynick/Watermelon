@@ -1,45 +1,140 @@
-<h1 align="center">watermelon</h1>
-<div align="center">
-    <small>
-        Pure Rust NATS client implementation
-    </small>
-</div>
+# 🍉 Watermelon Autonomous SpaceX Accumulation System (WASAS)
 
-`watermelon` is an independent and opinionated implementation of the NATS
-client protocol and the NATS client API for Rust. The goal of the project
-is to produce a more secure, composable and idiomatic implementation compared
-to the official one.
+> A literal watermelon that has been electrically modified to purchase $SPCX.
 
-Most users of this project will depend on the `watermelon` crate directly and on
-`watermelon-proto` and `watermelon-nkeys` via the re-exports in `watermelon`.
+**Repository:** https://github.com/motionbynick/Watermelon
 
-Watermelon is divided into multiple crates, all hosted in the same monorepo.
+## Overview
 
-| Crate name         | Crates.io release                                                                                               | Docs                                                                                    | Description                                                               |
-| ------------------ | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| `watermelon`       | [![crates.io](https://img.shields.io/crates/v/watermelon.svg)](https://crates.io/crates/watermelon)             | [![Docs](https://docs.rs/watermelon/badge.svg)](https://docs.rs/watermelon)             | High level actor based NATS Core and NATS Jetstream client implementation |
-| `watermelon-mini`  | [![crates.io](https://img.shields.io/crates/v/watermelon-mini.svg)](https://crates.io/crates/watermelon-mini)   | [![Docs](https://docs.rs/watermelon-mini/badge.svg)](https://docs.rs/watermelon-mini)   | Bare bones NATS Core client implementation                                |
-| `watermelon-net`   | [![crates.io](https://img.shields.io/crates/v/watermelon-net.svg)](https://crates.io/crates/watermelon-net)     | [![Docs](https://docs.rs/watermelon-net/badge.svg)](https://docs.rs/watermelon-net)     | Low-level NATS Core network implementation                                |
-| `watermelon-proto` | [![crates.io](https://img.shields.io/crates/v/watermelon-proto.svg)](https://crates.io/crates/watermelon-proto) | [![Docs](https://docs.rs/watermelon-proto/badge.svg)](https://docs.rs/watermelon-proto) | `#[no_std]` NATS Core Sans-IO protocol implementation                     |
-| `watermelon-nkeys` | [![crates.io](https://img.shields.io/crates/v/watermelon-nkeys.svg)](https://crates.io/crates/watermelon-nkeys) | [![Docs](https://docs.rs/watermelon-nkeys/badge.svg)](https://docs.rs/watermelon-nkeys) | Minimal NKeys implementation for NATS client authentication               |
+This repository documents the world's first known fruit-based aerospace investment platform.
 
-# Philosophy and Design
+Using a sophisticated network of wires, electrodes, questionable financial assumptions, and a watermelon purchased from a roadside stand, this project continuously attempts to increase exposure to $SPCX.
 
-1. **Security by design**: this library uses type-safe and checked APIs, such as `Subject`, to prevent entire classes of errors and security vulnerabilities.
-2. **Layering and composability**: the library is split into layers. You can get a high-level, batteries included implementation via `watermelon`, or depend directly on the lower-level crates for maximum flexibility.
-3. **Opinionated, Rusty take**: we adapt the Go-style API of nats-server and apply different trade-offs to make NATS feel more Rusty. We sacrifice a bit of performance by enabling server verbose mode, and get better errors in return.
-4. **Legacy is in the past**: we only support `nats-server >= 2.12` and avoid legacy versions compatibility code like the STARTTLS-style TLS upgrade path or fallbacks for older JetStream APIs. We also prefer pull consumers over push consumers given the robust flow control, easier compatibility with multi-account environments and stronger permissions handling.
-5. **Permissive licensing**: dual licensed under MIT and APACHE-2.0.
+### Key Features
 
-## License
+- 🍉 100% watermelon-powered decision engine
+- 🚀 Automatically buys $SPCX
+- 🔌 Advanced produce-to-brokerage interface
+- 📈 No understanding of market conditions whatsoever
+- 🧠 Zero emotional trading (because watermelon)
+- 💧 Naturally liquid asset
 
-Licensed under either of
+---
 
-- Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or <https://www.apache.org/licenses/LICENSE-2.0>)
-- MIT license ([LICENSE-MIT](LICENSE-MIT) or <https://opensource.org/licenses/MIT>)
+## Architecture
 
-at your option.
+```text
+        Sunlight
+           │
+           ▼
+    ┌─────────────┐
+    │ Watermelon  │
+    │   Brain     │
+    └──────┬──────┘
+           │
+      Random Wires
+           │
+           ▼
+    Buy More SPCX
+```
 
-### Contribution
+---
 
-Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any additional terms or conditions.
+## Investment Strategy
+
+The watermelon follows a disciplined quantitative framework:
+
+1. Detect existence of $SPCX.
+2. Buy $SPCX.
+3. If uncertain, buy more $SPCX.
+4. Return to Step 1.
+
+Backtesting indicates the watermelon successfully followed this strategy 100% of the time.
+
+---
+
+## Installation
+
+### Requirements
+
+- 1 watermelon
+- 17 feet of wire
+- Electrical tape
+- Brokerage account
+- Complete disregard for conventional systems engineering
+
+### Setup
+
+```bash
+git clone https://github.com/motionbynick/Watermelon.git
+cd Watermelon
+```
+
+Attach wires directly to the watermelon.
+
+If sparks occur, proceed with confidence.
+
+---
+
+## Configuration
+
+Edit `watermelon.conf`:
+
+```ini
+[trading]
+ticker=SPCX
+buy_signal=yes
+sell_signal=no
+reason=watermelon
+```
+
+---
+
+## Performance
+
+| Metric | Value |
+|----------|----------|
+| Processing Power | 1 MelonFLOP |
+| RAM | Moist |
+| Uptime | Seasonal |
+| Sharpe Ratio | Unknown |
+| Confidence | Extremely High |
+
+---
+
+## Known Issues
+
+- Watermelon occasionally attempts to photosynthesize.
+- Cannot explain investment thesis.
+- May attract ants.
+- Risk management consists entirely of being a watermelon.
+
+---
+
+## Roadmap
+
+- [ ] Add second watermelon for redundancy
+- [ ] Upgrade to seedless neural network
+- [ ] Launch decentralized melon governance
+- [ ] Enable interplanetary fruit trading
+- [ ] Acquire actual rocket company
+
+---
+
+## Security
+
+The system is protected by:
+
+- A hard outer rind
+- Mild confusion
+- Physical perishability
+
+---
+
+## Disclaimer
+
+This project is not financial advice.
+
+The watermelon is not a registered investment adviser, broker-dealer, accountant, attorney, astronaut, or particularly sophisticated fruit.
+
+All purchases of $SPCX are made at the sole discretion of the watermelon.
