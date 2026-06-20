@@ -11,7 +11,7 @@ This repository documents the world's first known fruit-based aerospace investme
 Using a sophisticated network of wires, electrodes, questionable financial assumptions, and a watermelon purchased from a roadside stand, this project continuously attempts to increase exposure to $SPCX.
 
 ### Key Features
-
+ 
 - 🍉 100% watermelon-powered decision engine
 - 🚀 Automatically buys $SPCX
 - 🔌 Advanced produce-to-brokerage interface
